@@ -27,7 +27,7 @@ int iniciar_ventana(void){//void pq no queremos que reciba ningun parametro
         return 0;
     }
     SDL_Window* ventana=SDL_CreateWindow(//Aqui creamos una ventana
-    "Mi primera ventana :D",//Titulo de la ventana
+    "Pong",//Titulo de la ventana
     SDL_WINDOWPOS_CENTERED,//Aqui se le da el valor de x donde aparecera la ventana, con el comando SDL_WINDOWPOS_CENTERED lo centrar
     SDL_WINDOWPOS_CENTERED,//Aqui se le da el valor y donde aparecera la ventan
     640,//anchura de la ventana
